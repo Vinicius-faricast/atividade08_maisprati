@@ -1,5 +1,7 @@
 import Encapsulamento.Produto;
 import Encapsulamento.ProdutoDesconto;
+import Heranca.Desenvolvedor;
+import Heranca.Gerente;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,10 +19,20 @@ public class Main {
 //        System.out.println(produto.getPreco());
 //        System.out.println(produto.getQtEstoque());
 
-//        Descomento o trecho do código para executar o exercicio 02
+// Descomento o trecho do código para executar o exercicio 02
 //        ProdutoDesconto arroz = new ProdutoDesconto("Arroz", 10, 5);
 //
 //        arroz.aplicarDesconto(10);
 //        System.out.println(arroz.getValorPromocional());
+
+// Descomente o trecho do código para executar o exercicio 03
+//        Gerente fulano = new Gerente("Fulano", 4000);
+//        System.out.println("O salario do gerente " + fulano.getName() + " com o bonus foi para: " + fulano.calcBonus());
+//
+//        Desenvolvedor cicrano = new Desenvolvedor("Cicrano", 5000);
+//        System.out.println("O salario do desenvolvedor " + cicrano.getName() + " com o bonus foi para: " + cicrano.calcBonus());
+//
+//        fulano.trabalhar();
+//        cicrano.trabalhar();
     }
 }
