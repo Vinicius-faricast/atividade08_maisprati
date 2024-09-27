@@ -2,6 +2,9 @@ import Encapsulamento.Produto;
 import Encapsulamento.ProdutoDesconto;
 import Heranca.Desenvolvedor;
 import Heranca.Gerente;
+import Polimorfismo.Trasnportes.Bicicleta;
+import Polimorfismo.Trasnportes.Carro;
+import Polimorfismo.Trasnportes.Trem;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,5 +37,19 @@ public class Main {
 //
 //        fulano.trabalhar();
 //        cicrano.trabalhar();
+
+//        Descomente o trecho do códio para executar o exercicio 03
+        Carro carro = new Carro();
+        Trem trem = new Trem();
+        Bicicleta bicicleta = new Bicicleta();
+
+        carro.acelerar();
+        carro.frear();
+
+        trem.acelerar();
+        trem.frear();
+
+        bicicleta.acelerar();
+        bicicleta.frear();
     }
 }
