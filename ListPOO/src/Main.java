@@ -2,9 +2,16 @@ import Encapsulamento.Produto;
 import Encapsulamento.ProdutoDesconto;
 import Heranca.Desenvolvedor;
 import Heranca.Gerente;
+import Polimorfismo.Animais.Animal;
+import Polimorfismo.Animais.Cachorro;
+import Polimorfismo.Animais.Gato;
+import Polimorfismo.Animais.Vaca;
 import Polimorfismo.Trasnportes.Bicicleta;
 import Polimorfismo.Trasnportes.Carro;
 import Polimorfismo.Trasnportes.Trem;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,17 +46,33 @@ public class Main {
 //        cicrano.trabalhar();
 
 //        Descomente o trecho do códio para executar o exercicio 03
-        Carro carro = new Carro();
-        Trem trem = new Trem();
-        Bicicleta bicicleta = new Bicicleta();
+//        Carro carro = new Carro();
+//        Trem trem = new Trem();
+//        Bicicleta bicicleta = new Bicicleta();
+//
+//        carro.acelerar();
+//        carro.frear();
+//
+//        trem.acelerar();
+//        trem.frear();
+//
+//        bicicleta.acelerar();
+//        bicicleta.frear();
 
-        carro.acelerar();
-        carro.frear();
+//        Cachorro cachorro = new Cachorro();
+//        Gato gato = new Gato();
+//        Vaca vaca = new Vaca();
+//
+//        List<Animal> animais;
+//
+//        animais = new ArrayList<Animal>();
+//        animais.add(cachorro);
+//        animais.add(gato);
+//        animais.add(vaca);
+//
+//        for( int i = 0; i < animais.size(); i++){
+//            animais.get(i).emitirSom();
+//        }
 
-        trem.acelerar();
-        trem.frear();
-
-        bicicleta.acelerar();
-        bicicleta.frear();
     }
 }
